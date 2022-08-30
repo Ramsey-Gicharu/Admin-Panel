@@ -1,0 +1,74 @@
+.sidebar {
+  flex: 1;
+  border-right: 0.5px solid #E0E0E0;
+  min-height: 100vh;
+  background-color: white;
+}
+.sidebar .top {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sidebar .top .logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0078AA;
+}
+.sidebar hr {
+  height: 0;
+  border: 0.5px solid grey;
+}
+.sidebar .center {
+  padding-left: 10px;
+}
+.sidebar .center ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sidebar .center ul .title {
+  font-weight: 10px;
+  font-weight: bold;
+  color: #3532A7;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.sidebar .center ul li {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+}
+.sidebar .center ul li:hover {
+  background-color: #C1EFFF;
+}
+.sidebar .center ul li .icon {
+  font-size: 20px;
+  color: #0078AA;
+}
+.sidebar .center ul li span {
+  font-size: 17px;
+  font-weight: 600;
+  color: #7F7C82;
+  margin-left: 15px;
+}
+.sidebar .bottom {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.sidebar .bottom .colorOptions {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid #0078AA;
+  cursor: pointer;
+  margin: 5px;
+}
+.sidebar .bottom .colorOptions:nth-child(1) {
+  background-color: antiquewhite;
+}
+.sidebar .bottom .colorOptions:nth-child(2) {
+  background-color: #2C3333;
+}/*# sourceMappingURL=sidebar.css.map */
